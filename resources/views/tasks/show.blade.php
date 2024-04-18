@@ -3,9 +3,7 @@
 @section('pageTitle','Show task')
 
 @section('content')
-
-    {{$task->id}}:{{$task->title}}
-
-
+    <div>{{$task->title}}</div>
+    <div>{{$task->created_at}}</div>
 @endsection()
 
