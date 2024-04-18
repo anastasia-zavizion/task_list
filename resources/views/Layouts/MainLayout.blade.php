@@ -15,7 +15,8 @@
             list-style: none;
             padding-left: 0;
         }
-
+        .bg-green{background-color: green;}
+        .bg-red{background-color: red;}
         @yield('styles')
     </style>
 
